@@ -6,9 +6,10 @@ require (
 	github.com/TwiN/go-color v1.4.1
 	github.com/onsi/ginkgo/v2 v2.19.0
 	github.com/onsi/gomega v1.33.1
-	github.com/projectsveltos/addon-controller v0.32.1-0.20240617155803-5ff13980e3d6
-	github.com/projectsveltos/libsveltos v0.32.1-0.20240617124556-8e4f749d4627
+	github.com/projectsveltos/addon-controller v0.32.1-0.20240619111758-726e4647f10b
+	github.com/projectsveltos/libsveltos v0.32.1-0.20240619112030-d87cc62cdfa4
 	github.com/spf13/pflag v1.0.5
+	k8s.io/api v0.30.2
 	k8s.io/apimachinery v0.30.2
 	k8s.io/client-go v0.30.2
 	k8s.io/component-base v0.30.2
@@ -67,7 +68,6 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.30.2 // indirect
 	k8s.io/apiextensions-apiserver v0.30.2 // indirect
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340 // indirect
 	k8s.io/utils v0.0.0-20240502163921-fe8a2dddb1d0 // indirect
