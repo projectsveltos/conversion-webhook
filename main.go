@@ -32,6 +32,8 @@ import (
 
 	configv1alpha1 "github.com/projectsveltos/addon-controller/api/v1alpha1"
 	configv1beta1 "github.com/projectsveltos/addon-controller/api/v1beta1"
+	v1alpha1 "github.com/projectsveltos/event-manager/api/v1alpha1"
+	v1beta1 "github.com/projectsveltos/event-manager/api/v1beta1"
 	libsveltosv1alpha1 "github.com/projectsveltos/libsveltos/api/v1alpha1"
 	libsveltosv1beta1 "github.com/projectsveltos/libsveltos/api/v1beta1"
 )
@@ -128,6 +130,11 @@ func initScheme() (*runtime.Scheme, error) {
 	if err := libsveltosv1alpha1.AddToScheme(s); err != nil {
 		return nil, err
 	}
-
+	if err := v1beta1.AddToScheme(s); err != nil {
+		return nil, err
+	}
+	if err := v1alpha1.AddToScheme(s); err != nil {
+		return nil, err
+	}
 	return s, nil
 }
