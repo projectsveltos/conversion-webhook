@@ -83,7 +83,6 @@ docker-buildx: ## docker build for multiple arch and push to docker hub
 load-image: docker-build $(KIND)
 	$(KIND) load docker-image $(CONTROLLER_IMG):$(TAG) --name $(CONTROL_CLUSTER_NAME)
 
-
 # K8S_VERSION for the Kind cluster can be set as environment variable. If not defined,
 # this default value is used
 ifndef K8S_VERSION
@@ -132,6 +131,9 @@ create-cluster: $(KIND) $(CLUSTERCTL) $(KUBECTL) ## Create a new kind cluster de
 
 	@echo wait for addon-controller pod
 	$(KUBECTL) wait --for=condition=Available deployment/addon-controller -n projectsveltos --timeout=$(TIMEOUT)
+
+	@echo 'Install EventTrigger'
+	$(KUBECTL) apply -f  https://raw.githubusercontent.com/projectsveltos/event-manager/$(TAG)/manifest/manifest.yaml
 
 	@echo 'Load projectsveltos webhook image into cluster'
 	$(MAKE) load-image

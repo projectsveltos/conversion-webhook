@@ -1,0 +1,1065 @@
+[
+  {
+    "SuitePath": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv",
+    "SuiteDescription": "FV Suite",
+    "SuiteLabels": [],
+    "SuiteSucceeded": true,
+    "SuiteHasProgrammaticFocus": false,
+    "SpecialSuiteFailureReasons": [],
+    "PreRunStats": {
+      "TotalSpecs": 6,
+      "SpecsThatWillRun": 6
+    },
+    "StartTime": "2024-06-21T21:05:33.737224+02:00",
+    "EndTime": "2024-06-21T21:05:33.841996+02:00",
+    "RunTime": 104772000,
+    "SuiteConfig": {
+      "RandomSeed": 1718996727,
+      "RandomizeAllSpecs": true,
+      "FocusStrings": null,
+      "SkipStrings": null,
+      "FocusFiles": null,
+      "SkipFiles": null,
+      "LabelFilter": "FV",
+      "FailOnPending": false,
+      "FailOnEmpty": false,
+      "FailFast": false,
+      "FlakeAttempts": 0,
+      "MustPassRepeatedly": 0,
+      "DryRun": false,
+      "PollProgressAfter": 0,
+      "PollProgressInterval": 0,
+      "Timeout": 3594626373834,
+      "EmitSpecProgress": false,
+      "OutputInterceptorMode": "",
+      "SourceRoots": null,
+      "GracePeriod": 30000000000,
+      "ParallelProcess": 1,
+      "ParallelTotal": 6,
+      "ParallelHost": "127.0.0.1:52254"
+    },
+    "SpecReports": [
+      {
+        "ContainerHierarchyTexts": null,
+        "ContainerHierarchyLocations": null,
+        "ContainerHierarchyLabels": null,
+        "LeafNodeType": "BeforeSuite",
+        "LeafNodeLocation": {
+          "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+          "LineNumber": 73
+        },
+        "LeafNodeLabels": null,
+        "LeafNodeText": "",
+        "State": "passed",
+        "StartTime": "2024-06-21T21:05:33.739391+02:00",
+        "EndTime": "2024-06-21T21:05:33.743917+02:00",
+        "RunTime": 4526042,
+        "ParallelProcess": 1,
+        "NumAttempts": 0,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 73
+            },
+            "TimelineLocation": {
+              "Order": 1,
+              "Time": "2024-06-21T21:05:33.739557+02:00"
+            },
+            "Message": "TOP-LEVEL",
+            "NodeType": "BeforeSuite"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 73
+            },
+            "TimelineLocation": {
+              "Order": 3,
+              "Time": "2024-06-21T21:05:33.743916+02:00"
+            },
+            "Message": "TOP-LEVEL",
+            "Duration": 4359375,
+            "NodeType": "BeforeSuite"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": [
+          "ClusterProfile"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/clusterprofile_conversion_test.go",
+            "LineNumber": 36
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          []
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/clusterprofile_conversion_test.go",
+          "LineNumber": 41
+        },
+        "LeafNodeLabels": [
+          "FV",
+          "EXTENDED"
+        ],
+        "LeafNodeText": "Deploy ClusterProfile v1alpha1 and query for v1beta1",
+        "State": "passed",
+        "StartTime": "2024-06-21T21:05:33.74583+02:00",
+        "EndTime": "2024-06-21T21:05:33.815503+02:00",
+        "RunTime": 69673750,
+        "ParallelProcess": 1,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/clusterprofile_conversion_test.go",
+              "LineNumber": 41
+            },
+            "TimelineLocation": {
+              "Order": 4,
+              "Time": "2024-06-21T21:05:33.745926+02:00"
+            },
+            "Message": "Deploy ClusterProfile v1alpha1 and query for v1beta1",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 5,
+              "Time": "2024-06-21T21:05:33.745952+02:00"
+            },
+            "Message": "Create ClusterProfile.v1alpha1 conversion-pz9ec3hae6"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 6,
+              "Time": "2024-06-21T21:05:33.781352+02:00"
+            },
+            "Message": "Get ClusterProfile.v1beta1 conversion-pz9ec3hae6"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 7,
+              "Time": "2024-06-21T21:05:33.790199+02:00"
+            },
+            "Message": "Verify ClusterProfile.v1beta1 selector conversion-pz9ec3hae6"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 8,
+              "Time": "2024-06-21T21:05:33.797337+02:00"
+            },
+            "Message": "Delete ClusterProfile.v1alpha1 conversion-pz9ec3hae6"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/clusterprofile_conversion_test.go",
+              "LineNumber": 41
+            },
+            "TimelineLocation": {
+              "Order": 10,
+              "Time": "2024-06-21T21:05:33.815501+02:00"
+            },
+            "Message": "Deploy ClusterProfile v1alpha1 and query for v1beta1",
+            "Duration": 69574666,
+            "NodeType": "It"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": null,
+        "ContainerHierarchyLocations": null,
+        "ContainerHierarchyLabels": null,
+        "LeafNodeType": "ReportAfterSuite",
+        "LeafNodeLocation": {
+          "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+          "LineNumber": 68
+        },
+        "LeafNodeLabels": null,
+        "LeafNodeText": "report",
+        "State": "passed",
+        "StartTime": "2024-06-21T21:05:33.816346+02:00",
+        "EndTime": "2024-06-21T21:05:33.86804+02:00",
+        "RunTime": 51694708,
+        "ParallelProcess": 1,
+        "NumAttempts": 0,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 68
+            },
+            "TimelineLocation": {
+              "Order": 11,
+              "Time": "2024-06-21T21:05:33.868025+02:00"
+            },
+            "Message": "TOP-LEVEL",
+            "NodeType": "ReportAfterSuite"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 68
+            },
+            "TimelineLocation": {
+              "Order": 13,
+              "Time": "2024-06-21T21:05:33.86804+02:00"
+            },
+            "Message": "TOP-LEVEL",
+            "Duration": 15041,
+            "NodeType": "ReportAfterSuite"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": null,
+        "ContainerHierarchyLocations": null,
+        "ContainerHierarchyLabels": null,
+        "LeafNodeType": "BeforeSuite",
+        "LeafNodeLocation": {
+          "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+          "LineNumber": 73
+        },
+        "LeafNodeLabels": null,
+        "LeafNodeText": "",
+        "State": "passed",
+        "StartTime": "2024-06-21T21:05:33.739531+02:00",
+        "EndTime": "2024-06-21T21:05:33.742907+02:00",
+        "RunTime": 3375875,
+        "ParallelProcess": 3,
+        "NumAttempts": 0,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 73
+            },
+            "TimelineLocation": {
+              "Order": 1,
+              "Time": "2024-06-21T21:05:33.739677+02:00"
+            },
+            "Message": "TOP-LEVEL",
+            "NodeType": "BeforeSuite"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 73
+            },
+            "TimelineLocation": {
+              "Order": 3,
+              "Time": "2024-06-21T21:05:33.7429+02:00"
+            },
+            "Message": "TOP-LEVEL",
+            "Duration": 3223250,
+            "NodeType": "BeforeSuite"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": [
+          "RoleRequest"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/rolerequest_conversion_test.go",
+            "LineNumber": 33
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          null
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/rolerequest_conversion_test.go",
+          "LineNumber": 38
+        },
+        "LeafNodeLabels": [
+          "FV",
+          "EXTENDED"
+        ],
+        "LeafNodeText": "Deploy RoleRequest v1alpha1 and query for v1beta1",
+        "State": "passed",
+        "StartTime": "2024-06-21T21:05:33.743497+02:00",
+        "EndTime": "2024-06-21T21:05:33.80992+02:00",
+        "RunTime": 66422917,
+        "ParallelProcess": 3,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/rolerequest_conversion_test.go",
+              "LineNumber": 38
+            },
+            "TimelineLocation": {
+              "Order": 4,
+              "Time": "2024-06-21T21:05:33.743638+02:00"
+            },
+            "Message": "Deploy RoleRequest v1alpha1 and query for v1beta1",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 5,
+              "Time": "2024-06-21T21:05:33.743689+02:00"
+            },
+            "Message": "Create RoleRequest.v1alpha1 conversion-eodaetfzzb"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 6,
+              "Time": "2024-06-21T21:05:33.773562+02:00"
+            },
+            "Message": "Get RoleRequest.v1beta1 conversion-eodaetfzzb"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 7,
+              "Time": "2024-06-21T21:05:33.786886+02:00"
+            },
+            "Message": "Verify RoleRequest.v1beta1 selector conversion-eodaetfzzb"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 8,
+              "Time": "2024-06-21T21:05:33.792039+02:00"
+            },
+            "Message": "Delete RoleRequest.v1alpha1 conversion-eodaetfzzb"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/rolerequest_conversion_test.go",
+              "LineNumber": 38
+            },
+            "TimelineLocation": {
+              "Order": 10,
+              "Time": "2024-06-21T21:05:33.809912+02:00"
+            },
+            "Message": "Deploy RoleRequest v1alpha1 and query for v1beta1",
+            "Duration": 66275084,
+            "NodeType": "It"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": null,
+        "ContainerHierarchyLocations": null,
+        "ContainerHierarchyLabels": null,
+        "LeafNodeType": "BeforeSuite",
+        "LeafNodeLocation": {
+          "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+          "LineNumber": 73
+        },
+        "LeafNodeLabels": null,
+        "LeafNodeText": "",
+        "State": "passed",
+        "StartTime": "2024-06-21T21:05:33.739364+02:00",
+        "EndTime": "2024-06-21T21:05:33.742256+02:00",
+        "RunTime": 2891542,
+        "ParallelProcess": 4,
+        "NumAttempts": 0,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 73
+            },
+            "TimelineLocation": {
+              "Order": 1,
+              "Time": "2024-06-21T21:05:33.739637+02:00"
+            },
+            "Message": "TOP-LEVEL",
+            "NodeType": "BeforeSuite"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 73
+            },
+            "TimelineLocation": {
+              "Order": 3,
+              "Time": "2024-06-21T21:05:33.742255+02:00"
+            },
+            "Message": "TOP-LEVEL",
+            "Duration": 2617333,
+            "NodeType": "BeforeSuite"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": [
+          "ClusterSet"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/clusterset_conversion_test.go",
+            "LineNumber": 34
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          null
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/clusterset_conversion_test.go",
+          "LineNumber": 39
+        },
+        "LeafNodeLabels": [
+          "FV",
+          "EXTENDED"
+        ],
+        "LeafNodeText": "Deploy ClusterSet v1alpha1 and query for v1beta1",
+        "State": "passed",
+        "StartTime": "2024-06-21T21:05:33.743367+02:00",
+        "EndTime": "2024-06-21T21:05:33.814549+02:00",
+        "RunTime": 71183250,
+        "ParallelProcess": 4,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/clusterset_conversion_test.go",
+              "LineNumber": 39
+            },
+            "TimelineLocation": {
+              "Order": 4,
+              "Time": "2024-06-21T21:05:33.743551+02:00"
+            },
+            "Message": "Deploy ClusterSet v1alpha1 and query for v1beta1",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 5,
+              "Time": "2024-06-21T21:05:33.743601+02:00"
+            },
+            "Message": "Create ClusterSet.v1alpha1 conversion-x43e1n9to3"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 6,
+              "Time": "2024-06-21T21:05:33.778832+02:00"
+            },
+            "Message": "Get ClusterSet.v1beta1 conversion-x43e1n9to3"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 7,
+              "Time": "2024-06-21T21:05:33.786774+02:00"
+            },
+            "Message": "Verify ClusterSet.v1beta1 selector conversion-x43e1n9to3"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 8,
+              "Time": "2024-06-21T21:05:33.795687+02:00"
+            },
+            "Message": "Delete ClusterSet.v1alpha1 conversion-x43e1n9to3"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/clusterset_conversion_test.go",
+              "LineNumber": 39
+            },
+            "TimelineLocation": {
+              "Order": 10,
+              "Time": "2024-06-21T21:05:33.814547+02:00"
+            },
+            "Message": "Deploy ClusterSet v1alpha1 and query for v1beta1",
+            "Duration": 70995834,
+            "NodeType": "It"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": null,
+        "ContainerHierarchyLocations": null,
+        "ContainerHierarchyLabels": null,
+        "LeafNodeType": "BeforeSuite",
+        "LeafNodeLocation": {
+          "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+          "LineNumber": 73
+        },
+        "LeafNodeLabels": null,
+        "LeafNodeText": "",
+        "State": "passed",
+        "StartTime": "2024-06-21T21:05:33.754517+02:00",
+        "EndTime": "2024-06-21T21:05:33.75722+02:00",
+        "RunTime": 2703041,
+        "ParallelProcess": 6,
+        "NumAttempts": 0,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 73
+            },
+            "TimelineLocation": {
+              "Order": 1,
+              "Time": "2024-06-21T21:05:33.754712+02:00"
+            },
+            "Message": "TOP-LEVEL",
+            "NodeType": "BeforeSuite"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 73
+            },
+            "TimelineLocation": {
+              "Order": 3,
+              "Time": "2024-06-21T21:05:33.75722+02:00"
+            },
+            "Message": "TOP-LEVEL",
+            "Duration": 2508125,
+            "NodeType": "BeforeSuite"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": [
+          "EventTrigger"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/eventtrigger_conversion_test.go",
+            "LineNumber": 34
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          null
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/eventtrigger_conversion_test.go",
+          "LineNumber": 39
+        },
+        "LeafNodeLabels": [
+          "FV",
+          "EXTENDED"
+        ],
+        "LeafNodeText": "Deploy EventTrigegr v1alpha1 and query for v1beta1",
+        "State": "passed",
+        "StartTime": "2024-06-21T21:05:33.757803+02:00",
+        "EndTime": "2024-06-21T21:05:33.834468+02:00",
+        "RunTime": 76665791,
+        "ParallelProcess": 6,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/eventtrigger_conversion_test.go",
+              "LineNumber": 39
+            },
+            "TimelineLocation": {
+              "Order": 4,
+              "Time": "2024-06-21T21:05:33.757899+02:00"
+            },
+            "Message": "Deploy EventTrigegr v1alpha1 and query for v1beta1",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 5,
+              "Time": "2024-06-21T21:05:33.757918+02:00"
+            },
+            "Message": "Create EventTrigger.v1alpha1 conversion-rbpqsatc65"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 6,
+              "Time": "2024-06-21T21:05:33.785093+02:00"
+            },
+            "Message": "Get EventTrigger.v1beta1 conversion-rbpqsatc65"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 7,
+              "Time": "2024-06-21T21:05:33.799614+02:00"
+            },
+            "Message": "Verify EventTrigger.v1beta1 selector conversion-rbpqsatc65"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 8,
+              "Time": "2024-06-21T21:05:33.808405+02:00"
+            },
+            "Message": "Delete EventTrigger.v1alpha1 conversion-rbpqsatc65"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/eventtrigger_conversion_test.go",
+              "LineNumber": 39
+            },
+            "TimelineLocation": {
+              "Order": 10,
+              "Time": "2024-06-21T21:05:33.834458+02:00"
+            },
+            "Message": "Deploy EventTrigegr v1alpha1 and query for v1beta1",
+            "Duration": 76559166,
+            "NodeType": "It"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": null,
+        "ContainerHierarchyLocations": null,
+        "ContainerHierarchyLabels": null,
+        "LeafNodeType": "BeforeSuite",
+        "LeafNodeLocation": {
+          "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+          "LineNumber": 73
+        },
+        "LeafNodeLabels": null,
+        "LeafNodeText": "",
+        "State": "passed",
+        "StartTime": "2024-06-21T21:05:33.739377+02:00",
+        "EndTime": "2024-06-21T21:05:33.743301+02:00",
+        "RunTime": 3924083,
+        "ParallelProcess": 2,
+        "NumAttempts": 0,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 73
+            },
+            "TimelineLocation": {
+              "Order": 1,
+              "Time": "2024-06-21T21:05:33.739566+02:00"
+            },
+            "Message": "TOP-LEVEL",
+            "NodeType": "BeforeSuite"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 73
+            },
+            "TimelineLocation": {
+              "Order": 3,
+              "Time": "2024-06-21T21:05:33.7433+02:00"
+            },
+            "Message": "TOP-LEVEL",
+            "Duration": 3734375,
+            "NodeType": "BeforeSuite"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": [
+          "Set"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/set_conversion_test.go",
+            "LineNumber": 34
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          null
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/set_conversion_test.go",
+          "LineNumber": 39
+        },
+        "LeafNodeLabels": [
+          "FV",
+          "EXTENDED"
+        ],
+        "LeafNodeText": "Deploy Set v1alpha1 and query for v1beta1",
+        "State": "passed",
+        "StartTime": "2024-06-21T21:05:33.743765+02:00",
+        "EndTime": "2024-06-21T21:05:33.840716+02:00",
+        "RunTime": 96951708,
+        "ParallelProcess": 2,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/set_conversion_test.go",
+              "LineNumber": 39
+            },
+            "TimelineLocation": {
+              "Order": 4,
+              "Time": "2024-06-21T21:05:33.743875+02:00"
+            },
+            "Message": "Deploy Set v1alpha1 and query for v1beta1",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 5,
+              "Time": "2024-06-21T21:05:33.743891+02:00"
+            },
+            "Message": "Create Namespace conversion-g928eqvgc4"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 6,
+              "Time": "2024-06-21T21:05:33.772854+02:00"
+            },
+            "Message": "Create Set.v1alpha1 35y1wymt6l"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 7,
+              "Time": "2024-06-21T21:05:33.788426+02:00"
+            },
+            "Message": "Get Set.v1beta1 conversion-g928eqvgc4/35y1wymt6l"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 8,
+              "Time": "2024-06-21T21:05:33.803414+02:00"
+            },
+            "Message": "Verify Set.v1beta1 selector 35y1wymt6l"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 9,
+              "Time": "2024-06-21T21:05:33.810689+02:00"
+            },
+            "Message": "Delete Set.v1alpha1 conversion-g928eqvgc4/35y1wymt6l"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/set_conversion_test.go",
+              "LineNumber": 39
+            },
+            "TimelineLocation": {
+              "Order": 11,
+              "Time": "2024-06-21T21:05:33.840712+02:00"
+            },
+            "Message": "Deploy Set v1alpha1 and query for v1beta1",
+            "Duration": 96837417,
+            "NodeType": "It"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": null,
+        "ContainerHierarchyLocations": null,
+        "ContainerHierarchyLabels": null,
+        "LeafNodeType": "BeforeSuite",
+        "LeafNodeLocation": {
+          "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+          "LineNumber": 73
+        },
+        "LeafNodeLabels": null,
+        "LeafNodeText": "",
+        "State": "passed",
+        "StartTime": "2024-06-21T21:05:33.739375+02:00",
+        "EndTime": "2024-06-21T21:05:33.74388+02:00",
+        "RunTime": 4505292,
+        "ParallelProcess": 5,
+        "NumAttempts": 0,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 73
+            },
+            "TimelineLocation": {
+              "Order": 1,
+              "Time": "2024-06-21T21:05:33.739594+02:00"
+            },
+            "Message": "TOP-LEVEL",
+            "NodeType": "BeforeSuite"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 73
+            },
+            "TimelineLocation": {
+              "Order": 3,
+              "Time": "2024-06-21T21:05:33.74388+02:00"
+            },
+            "Message": "TOP-LEVEL",
+            "Duration": 4286209,
+            "NodeType": "BeforeSuite"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": [
+          "Profile"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/profile_conversion_test.go",
+            "LineNumber": 36
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          null
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/profile_conversion_test.go",
+          "LineNumber": 41
+        },
+        "LeafNodeLabels": [
+          "FV",
+          "EXTENDED"
+        ],
+        "LeafNodeText": "Deploy Profile v1alpha1 and query for v1beta1",
+        "State": "passed",
+        "StartTime": "2024-06-21T21:05:33.745819+02:00",
+        "EndTime": "2024-06-21T21:05:33.841414+02:00",
+        "RunTime": 95595459,
+        "ParallelProcess": 5,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/profile_conversion_test.go",
+              "LineNumber": 41
+            },
+            "TimelineLocation": {
+              "Order": 4,
+              "Time": "2024-06-21T21:05:33.745923+02:00"
+            },
+            "Message": "Deploy Profile v1alpha1 and query for v1beta1",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 5,
+              "Time": "2024-06-21T21:05:33.745952+02:00"
+            },
+            "Message": "Create Namespace conversion-evg81kwrun"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 6,
+              "Time": "2024-06-21T21:05:33.779122+02:00"
+            },
+            "Message": "Create Profile.v1alpha1 0xiy10ej14"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 7,
+              "Time": "2024-06-21T21:05:33.796614+02:00"
+            },
+            "Message": "Get Profile.v1beta1 conversion-evg81kwrun/0xiy10ej14"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 8,
+              "Time": "2024-06-21T21:05:33.80853+02:00"
+            },
+            "Message": "Verify Profile.v1beta1 selector 0xiy10ej14"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/fv_suite_test.go",
+              "LineNumber": 98
+            },
+            "TimelineLocation": {
+              "Order": 9,
+              "Time": "2024-06-21T21:05:33.812855+02:00"
+            },
+            "Message": "Delete Profile.v1alpha1 conversion-evg81kwrun/0xiy10ej14"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/mgianluc/go/src/github.com/gianlucam76/conversion-webhook/test/fv/profile_conversion_test.go",
+              "LineNumber": 41
+            },
+            "TimelineLocation": {
+              "Order": 11,
+              "Time": "2024-06-21T21:05:33.841412+02:00"
+            },
+            "Message": "Deploy Profile v1alpha1 and query for v1beta1",
+            "Duration": 95488834,
+            "NodeType": "It"
+          }
+        ]
+      }
+    ]
+  }
+]
