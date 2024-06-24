@@ -135,6 +135,9 @@ create-cluster: $(KIND) $(CLUSTERCTL) $(KUBECTL) ## Create a new kind cluster de
 	@echo 'Install EventTrigger'
 	$(KUBECTL) apply -f  https://raw.githubusercontent.com/projectsveltos/event-manager/$(TAG)/manifest/manifest.yaml
 
+	@echo 'Install sveltosctl'
+	$(KUBECTL) apply -f https://raw.githubusercontent.com/projectsveltos/sveltosctl/$(TAG)/manifest/manifest.yaml
+
 	@echo 'Load projectsveltos webhook image into cluster'
 	$(MAKE) load-image
 

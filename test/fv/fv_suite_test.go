@@ -38,6 +38,8 @@ import (
 	"github.com/projectsveltos/event-manager/api/v1beta1"
 	libsveltosv1alpha1 "github.com/projectsveltos/libsveltos/api/v1alpha1"
 	libsveltosv1beta1 "github.com/projectsveltos/libsveltos/api/v1beta1"
+	utilsv1alpha1 "github.com/projectsveltos/sveltosctl/api/v1alpha1"
+	utilsv1beta1 "github.com/projectsveltos/sveltosctl/api/v1beta1"
 )
 
 var (
@@ -87,6 +89,8 @@ var _ = BeforeSuite(func() {
 	Expect(configv1alpha1.AddToScheme(scheme)).To(Succeed())
 	Expect(v1beta1.AddToScheme(scheme)).To(Succeed())
 	Expect(v1alpha1.AddToScheme(scheme)).To(Succeed())
+	Expect(utilsv1beta1.AddToScheme(scheme)).To(Succeed())
+	Expect(utilsv1alpha1.AddToScheme(scheme)).To(Succeed())
 
 	var err error
 	k8sClient, err = client.New(restConfig, client.Options{Scheme: scheme})
