@@ -27,6 +27,8 @@ jobs:
       run: make vet
     - name: LINT
       run: make lint
+    - name: TEST
+      run: make test
       env:
         LINT: true
   FV:

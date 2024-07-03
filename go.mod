@@ -6,16 +6,16 @@ require (
 	github.com/TwiN/go-color v1.4.1
 	github.com/onsi/ginkgo/v2 v2.19.0
 	github.com/onsi/gomega v1.33.1
-	github.com/projectsveltos/addon-controller v0.32.1-0.20240625081059-4d758080eef8
-	github.com/projectsveltos/event-manager v0.32.1-0.20240621192110-ee3370551bc3
-	github.com/projectsveltos/libsveltos v0.32.1-0.20240624142620-affdfeb694be
-	github.com/projectsveltos/sveltosctl v0.32.1-0.20240624113158-952a08da4c51
+	github.com/projectsveltos/addon-controller v0.33.0
+	github.com/projectsveltos/event-manager v0.33.0
+	github.com/projectsveltos/libsveltos v0.33.0
+	github.com/projectsveltos/sveltosctl v0.33.0
 	github.com/spf13/pflag v1.0.5
 	k8s.io/api v0.30.2
 	k8s.io/apimachinery v0.30.2
 	k8s.io/client-go v0.30.2
 	k8s.io/component-base v0.30.2
-	k8s.io/klog/v2 v2.130.0
+	k8s.io/klog/v2 v2.130.1
 	sigs.k8s.io/cluster-api v1.7.3
 	sigs.k8s.io/controller-runtime v0.18.4
 )
