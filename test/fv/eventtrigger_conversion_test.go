@@ -29,6 +29,7 @@ import (
 	"github.com/projectsveltos/event-manager/api/v1alpha1"
 	"github.com/projectsveltos/event-manager/api/v1beta1"
 	libsveltosv1alpha1 "github.com/projectsveltos/libsveltos/api/v1alpha1"
+	libsveltosv1beta1 "github.com/projectsveltos/libsveltos/api/v1beta1"
 )
 
 var _ = Describe("EventTrigger", func() {
@@ -63,6 +64,23 @@ var _ = Describe("EventTrigger", func() {
 		Byf("Verify EventTrigger.v1beta1 selector %s", eventTrigger.Name)
 		Expect(len(dst.Spec.SourceClusterSelector.LabelSelector.MatchLabels)).To(Equal(1))
 		Expect(dst.Spec.SourceClusterSelector.LabelSelector.MatchLabels[key]).To(Equal(value))
+
+		Byf("Setting EventTrigger.v1beta1 Patches")
+		dst.Spec.Patches = []libsveltosv1beta1.Patch{
+			{
+				Patch: `- op: add
+  path: /metadata/annotations/projectsveltos.io~1driftDetectionIgnore
+  value: ok`,
+				Target: &libsveltosv1beta1.PatchSelector{
+					Group:     "apps",
+					Version:   "v1",
+					Kind:      "Deployment",
+					Namespace: "kyverno",
+					Name:      "kyverno-admission-controller",
+				},
+			},
+		}
+		Expect(k8sClient.Update(context.TODO(), dst)).To(Succeed())
 
 		currentEventTrigger := &v1alpha1.EventTrigger{}
 		Expect(k8sClient.Get(context.TODO(),
