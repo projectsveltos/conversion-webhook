@@ -23,8 +23,8 @@ CLUSTERCTL := $(TOOLS_BIN_DIR)/clusterctl
 KIND := $(TOOLS_BIN_DIR)/kind
 KUBECTL := $(TOOLS_BIN_DIR)/kubectl
 
-GOLANGCI_LINT_VERSION := "v1.57.2"
-CLUSTERCTL_VERSION := "v1.7.4"
+GOLANGCI_LINT_VERSION := "v1.59.0"
+CLUSTERCTL_VERSION := "v1.8.1"
 
 $(GOLANGCI_LINT): # Build golangci-lint from tools folder.
 	cd $(TOOLS_DIR); ./get-golangci-lint.sh $(GOLANGCI_LINT_VERSION)
@@ -102,7 +102,7 @@ check-manifests: manifests ## Verify manifests file is up to date
 # K8S_VERSION for the Kind cluster can be set as environment variable. If not defined,
 # this default value is used
 ifndef K8S_VERSION
-K8S_VERSION := v1.30.0
+K8S_VERSION := v1.31.0
 endif
 
 KIND_CONFIG ?= kind-cluster.yaml
