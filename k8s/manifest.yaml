@@ -37,7 +37,7 @@ spec:
       containers:
       - command:
         - /conversion-webhook
-        image: docker.io/projectsveltos/webhook-conversion:v0.38.1
+        image: docker.io/projectsveltos/webhook-conversion:v0.38.2
         name: sveltos-webhook
         ports:
         - containerPort: 9443
