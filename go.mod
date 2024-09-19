@@ -6,8 +6,8 @@ require (
 	github.com/TwiN/go-color v1.4.1
 	github.com/onsi/ginkgo/v2 v2.20.2
 	github.com/onsi/gomega v1.34.2
-	github.com/projectsveltos/addon-controller v0.38.1-0.20240912091211-9789955dec68
-	github.com/projectsveltos/event-manager v0.38.1-0.20240912093039-7cdf78f3b49c
+	github.com/projectsveltos/addon-controller v0.38.1-0.20240919155721-3d3847585023
+	github.com/projectsveltos/event-manager v0.38.1-0.20240919160402-a2c05e689481
 	github.com/projectsveltos/libsveltos v0.38.1-0.20240911140937-72f68c9b58ea
 	github.com/projectsveltos/sveltosctl v0.38.1-0.20240912094719-89a300e82e82
 	github.com/spf13/pflag v1.0.5
@@ -53,7 +53,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/prometheus/client_golang v1.20.3 // indirect
+	github.com/prometheus/client_golang v1.20.4 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.59.1 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
