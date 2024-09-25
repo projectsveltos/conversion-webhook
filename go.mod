@@ -6,15 +6,15 @@ require (
 	github.com/TwiN/go-color v1.4.1
 	github.com/onsi/ginkgo/v2 v2.20.2
 	github.com/onsi/gomega v1.34.2
-	github.com/projectsveltos/addon-controller v0.38.2
-	github.com/projectsveltos/event-manager v0.38.2
-	github.com/projectsveltos/libsveltos v0.38.2
-	github.com/projectsveltos/sveltosctl v0.38.2
+	github.com/projectsveltos/addon-controller v0.38.3
+	github.com/projectsveltos/event-manager v0.38.3
+	github.com/projectsveltos/libsveltos v0.38.3
+	github.com/projectsveltos/sveltosctl v0.38.3
 	github.com/spf13/pflag v1.0.5
-	k8s.io/api v0.31.0
-	k8s.io/apimachinery v0.31.0
-	k8s.io/client-go v0.31.0
-	k8s.io/component-base v0.31.0
+	k8s.io/api v0.31.1
+	k8s.io/apimachinery v0.31.1
+	k8s.io/client-go v0.31.1
+	k8s.io/component-base v0.31.1
 	k8s.io/klog/v2 v2.130.1
 	sigs.k8s.io/cluster-api v1.8.3
 	sigs.k8s.io/controller-runtime v0.19.0
@@ -72,7 +72,7 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/apiextensions-apiserver v0.31.0 // indirect
+	k8s.io/apiextensions-apiserver v0.31.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20240903163716-9e1beecbcb38 // indirect
 	k8s.io/utils v0.0.0-20240902221715-702e33fdd3c3 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
