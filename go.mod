@@ -6,10 +6,10 @@ require (
 	github.com/TwiN/go-color v1.4.1
 	github.com/onsi/ginkgo/v2 v2.20.2
 	github.com/onsi/gomega v1.34.2
-	github.com/projectsveltos/addon-controller v0.41.0
-	github.com/projectsveltos/event-manager v0.41.0
-	github.com/projectsveltos/libsveltos v0.41.0
-	github.com/projectsveltos/sveltosctl v0.41.0
+	github.com/projectsveltos/addon-controller v0.41.1
+	github.com/projectsveltos/event-manager v0.41.1
+	github.com/projectsveltos/libsveltos v0.41.1
+	github.com/projectsveltos/sveltosctl v0.41.1
 	github.com/spf13/pflag v1.0.5
 	k8s.io/api v0.31.2
 	k8s.io/apimachinery v0.31.2
